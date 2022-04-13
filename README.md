@@ -10,6 +10,8 @@ KaseiCoin will be a fungible token that’s ERC-20 compliant. A crowdsale where 
 
 ## Solution
 
+#### Develop KaseiCoin.sol smart contract that will mint the KAI
+
 KaseiCoin inherits the following contracts from the OpenZeppelin library:
 
     * `ERC20`  
