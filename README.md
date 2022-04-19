@@ -8,7 +8,7 @@ After waiting for years and passing several tests, the Martian Aerospace Agency 
 
 KaseiCoin will be a fungible token that’s ERC-20 compliant. A crowdsale where people moving to Mars can convert their Earth fiat money to KaseiCoin.
 
-## Solution
+## Evaluation Evidence
 
 #### Develop KaseiCoin.sol smart contract that will mint the KAI
 
@@ -21,7 +21,19 @@ KaseiCoin inherits the following contracts from the OpenZeppelin library:
 Test compile failed due to `uint initial_supply` being an unsed variable.  
 ![alt=""](evaluation-evidence/001-compile-error.png)  
 
-To compile with no errors unused var `uint initial_supply` was commented. Screenshot of successful compilation of the Kasei constructor definition contract below.
+To compile with no errors unused var `uint initial_supply` was commented. Screenshot of successful compilation of the Kasei constructor definition contract below.  
 ![alt=""](evaluation-evidence/002-compile-test-fix.png)  
+
+Test compile of `KaseiCoinCrowdsale.sol` with errors. `KaseiCoin.sol` constructor contract was not in uploaded remix.ethereum.org.  
+![alt=""](evaluation-evidence/003-compile-test-no-constuctor-contract.png)  
+
+Complie error screenshot due to the above upload omission.  
+![alt=""](evaluation-evidence/004-compile-test-note-pragma55.png)  
+
+Screenshot of successfulest compile of `KaseiCoinCrowdsale.sol` contract below. 
+![alt=""](evaluation-evidence/005-compile-test.png)  
+
+
+
 
 
