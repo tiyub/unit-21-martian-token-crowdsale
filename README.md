@@ -20,6 +20,8 @@ KaseiCoin inherits the following contracts from the OpenZeppelin library:
 
 Test compile failed due to `uint initial_supply` being an unsed variable.  
 ![alt=""](evaluation-evidence/001-compile-error.png)  
+
+To compile with no errors unused var `uint initial_supply` was commented. Screenshot of successful compilation of the Kasei constructor definition contract below.
 ![alt=""](evaluation-evidence/002-compile-test-fix.png)  
 
 
