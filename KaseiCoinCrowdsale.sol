@@ -53,4 +53,3 @@ contract KaseiCoinCrowdsaleDeployer {
         // YOUR CODE HERE!
     }
 }
-*/
