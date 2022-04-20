@@ -19,21 +19,25 @@ KaseiCoin inherits the following contracts from the OpenZeppelin library:
     * `ERC20Mintable`
 
 Test compile failed due to `uint initial_supply` being an unsed variable.  
-![alt=""](evaluation-evidence/001-compile-error.png)  
+Fig. 1  ![alt="Fig. 1"](evaluation-evidence/001-compile-error.png)  
 
 To compile with no errors unused var `uint initial_supply` was commented. Screenshot of successful compilation of the Kasei constructor definition contract below.  
-![alt=""](evaluation-evidence/002-compile-test-fix.png)  
+Fig. 2  ![alt="Fig. 2"](evaluation-evidence/002-compile-test-fix.png)  
 
 Test compile of `KaseiCoinCrowdsale.sol` with errors. `KaseiCoin.sol` constructor contract was not in uploaded remix.ethereum.org.  
-![alt=""](evaluation-evidence/003-compile-test-no-constuctor-contract.png)  
+Fig. 3  ![alt="Fig. 3"](evaluation-evidence/003-compile-test-no-constuctor-contract.png)  
 
 Complie error screenshot due to the above upload omission.  
-![alt=""](evaluation-evidence/004-compile-test-note-pragma55.png)  
+Fig. 4  ![alt="Fig. 4"](evaluation-evidence/004-compile-test-note-pragma55.png)  
 
 Screenshot of successfulest compile of `KaseiCoinCrowdsale.sol` contract below. 
-![alt=""](evaluation-evidence/005-compile-test.png)  
+Fig. 5  ![alt="Fig. 5"](evaluation-evidence/005-compile-test.png)  
 
+Test compile of `KaseiCoinCrowdsale.sol` with errors. Errors due to commented line in Fig. 2. Expected arugment count of 3. Only 2 due to test compile. Ln 38 was uncommented. Ln 38 was uncommented to attemp compile.  
+Fig. 6  ![alt="Fig. 6"](evaluation-evidence/006-compile-test-args.png)  
 
+Error encountered due to Ln. 47. The `KaseiCoinCrowdsale` object was called, should have called the instance named `kasei_crowdsale`.
+Fig. 7  ![alt="Fig. 7"](evaluation-evidence/007-compile-test-call-instance.png)  
 
 
 
