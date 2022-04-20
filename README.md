@@ -36,5 +36,5 @@ Fig. 5  ![alt="Fig. 5"](evaluation-evidence/005-compile-test.png)
 Test compile of `KaseiCoinCrowdsale.sol` with errors. Errors due to commented line in Fig. 2. Expected arugment count of 3. Only 2 due to test compile. Ln 38 was uncommented. Ln 38 was uncommented to attemp compile. 2nd compile error encountered due to Ln. 47. The `KaseiCoinCrowdsale` object was called, should have called the instance named `kasei_crowdsale`.   
 Fig. 6  ![alt="Fig. 6"](evaluation-evidence/006-compile-test-args.png)  
 
-Reference was changed to `kasei_crowdsale` - Successfull compile Fig. 7.  
-Fig. 7  ![alt="Fig. 8"](evaluation-evidence/007-compile-test-fix.png)  
+Reference was changed to `kasei_crowdsale` - successfull compile Fig. 7.  
+Fig. 7  ![alt="Fig. 7"](evaluation-evidence/007-compile-test-fix.png)  
