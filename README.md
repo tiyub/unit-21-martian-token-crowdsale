@@ -39,9 +39,21 @@ Fig. 6  ![alt="Fig. 6"](evaluation-evidence/006-compile-test-args.png)
 Reference was changed to `kasei_crowdsale` - successfull compile Fig. 7.  
 Fig. 7  ![alt="Fig. 7"](evaluation-evidence/007-compile-test-fix.png)  
 
-Set `KaseiCoinCrowdsale` contract to inherit the following three contracts.  
-    * `CappedCrowdsale`  
-    * `TimedCrowdsale`  
-    * `RefundablePostDeliveryCrowdsale`  
-Remix IDE browser was not rendering code. Compile errors (arrows in Fig. 8) screenshot/illust. is rendered in VSCode Remix IDE extension.  
-Fig. 8  ![alt="Fig. 8"](evaluation-evidence/008-compile-test-add-inertis-errors.png)  
+#### Screen Recording of Local Blockchain Interations  
+
+Ganache, Metamask, Remix connected  
+Video 1  ![alt="V. 1"](evaluation-evidence/interaction-001-connect-ganache-metamask-remix.mp4)  
+
+Deploy and input:
+    * Cryptocurrency name: kasei  
+    * Symbol: kai   
+    * Initial Supply  
+Video 2  ![alt="V. 2"](evaluation-evidence/interaction-002-deploy-name-sym-iSupply.mp4)  
+
+Additional interation:
+    * addminter  
+        Video 3  ![alt="V. 3"](evaluation-evidence/interaction-003-add-minter.mp4)  
+    * isminter
+        Video 4  ![alt="V. 4"](evaluation-evidence/interaction-004-isminter.mp4)  
+    * mint coin  
+        Video 5  ![alt="V. 5"](evaluation-evidence/interaction-005-minting.mp4)  
