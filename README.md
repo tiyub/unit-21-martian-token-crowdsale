@@ -39,8 +39,9 @@ Fig. 6  ![alt="Fig. 6"](evaluation-evidence/006-compile-test-args.png)
 Reference was changed to `kasei_crowdsale` - successfull compile Fig. 7.  
 Fig. 7  ![alt="Fig. 7"](evaluation-evidence/007-compile-test-fix.png)  
 
-Set `KaseiCoinCrowdsale` contract to inherit the following three contracts. Illustrated in Fig. 8 - Remix IDE browser was not rendering code. Compile errors (arrows in Fig. 8) screenshot/illust. is rendered in VSCode Remix IDE extension.  
+Set `KaseiCoinCrowdsale` contract to inherit the following three contracts.  
     * `CappedCrowdsale`  
     * `TimedCrowdsale`  
     * `RefundablePostDeliveryCrowdsale`  
+Remix IDE browser was not rendering code. Compile errors (arrows in Fig. 8) screenshot/illust. is rendered in VSCode Remix IDE extension.  
 Fig. 8  ![alt="Fig. 8"](evaluation-evidence/008-compile-test-add-inertis-errors.png)  
