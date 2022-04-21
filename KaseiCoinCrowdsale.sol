@@ -1,4 +1,4 @@
-pragma solidity ^0.5.0;
+pragma solidity ^0.5.5;
 
 import "./KaseiCoin.sol";
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/crowdsale/Crowdsale.sol";
@@ -8,14 +8,22 @@ import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5
 // Have the KaseiCoinCrowdsale contract inherit the following OpenZeppelin:
 // * Crowdsale
 // * MintedCrowdsale
-contract KaseiCoinCrowdsale is Crowdsale, MintedCrowdsale{
+contract KaseiCoinCrowdsale is Crowdsale, MintedCrowdsale, CappedCrowdsale, TimedCrowdsale, RefundablePostDeliveryCrowdsale{
     
     // Provide parameters for all of the features of your crowdsale, such as the `rate`, `wallet` for fundraising, and `token`.
     constructor(
-        uint256 rate,
-        address payable wallet,
-        KaseiCoin token
-    ) public Crowdsale(rate, wallet, token) {
+        uint256 rate, // rate in TKNbits
+        address payable wallet, // sale beneficiary
+        KaseiCoin token, // the KaseiCoin itself that the KaseiCoinCrowdsale will work with
+        uint goal, // the crowdsale goal
+        uint open, // the crowdsale opening time
+        uint close // the crowdsale closing time
+    ) public
+        Crowdsale(rate, wallet, token)
+        CappedCrowdsale(goal)    
+        TimedCrowdsale(open, close)
+        RefundableCrowdsale(goal)
+    {
         // constructor can stay empty
     }
 }
