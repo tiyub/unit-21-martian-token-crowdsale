@@ -48,12 +48,14 @@ Ganache, Metamask, Remix connected
 Fig. 8  ![alt="Fig. 8"](evaluation-evidence/interaction-001-connect-ganache-metamask-remix.png)  
 
 Deploy and input:  
+
     * Cryptocurrency name: kasei  
     * Symbol: kai   
     * Initial Supply  
 Fig. 9  ![alt="Fig. 9"](evaluation-evidence/interaction-002-deploy-name-sym-iSupply.png)  
 
 Additional interaction:  
+
     * addminter - Fig. 10  
     * isminter - Fig. 11  
     * mint coin  - Fig. 12  
