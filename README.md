@@ -10,13 +10,13 @@ KaseiCoin will be a fungible token that’s ERC-20 compliant. A crowdsale where 
 
 ## Evaluation Evidence
 
-### Develop KaseiCoin.sol smart contract that will mint the KAI
+### Develop KaseiCoin.sol smart contract that will mint the KAI  
 
-KaseiCoin inherits the following contracts from the OpenZeppelin library:
+KaseiCoin inherits the following contracts from the OpenZeppelin library:  
 
     * `ERC20`  
-    * `ERC20Detailed`
-    * `ERC20Mintable`
+    * `ERC20Detailed`  
+    * `ERC20Mintable`  
 
 Test compile failed due to `uint initial_supply` being an unsed variable.  
 Fig. 1  ![alt="Fig. 1"](evaluation-evidence/001-compile-error.png)  
@@ -45,18 +45,19 @@ Please download and view the interaction low-resoution .mp4 and as higher resolu
 
 
 Ganache, Metamask, Remix connected  
-Fig. 8  ![alt="Fig. 8"](evaluation-evidence/interaction-001-connect-ganache-metamask-remix.png) 
+Fig. 8  ![alt="Fig. 8"](evaluation-evidence/interaction-001-connect-ganache-metamask-remix.png)  
 
-Deploy and input:
+Deploy and input:  
     * Cryptocurrency name: kasei  
     * Symbol: kai   
     * Initial Supply  
 Fig. 9  ![alt="Fig. 9"](evaluation-evidence/interaction-002-deploy-name-sym-iSupply.png)  
 
-Additional interation:
-    * addminter  
-        Fig. 10  ![alt="Fig. 10"](evaluation-evidence/interaction-003-add-minter.png)  
-    * isminter
-        Fig. 11  ![alt="Fig. 11"](evaluation-evidence/interaction-004-isminter.png)  
-    * mint coin  
-        Fig. 12  ![alt="Fig. 12"](evaluation-evidence/interaction-005-minting.png)  
+Additional interaction:  
+    * addminter - Fig. 10  
+    * isminter - Fig. 11  
+    * mint coin  - Fig. 12  
+        
+Fig. 10  ![alt="Fig. 10"](evaluation-evidence/interaction-003-add-minter.png)  
+Fig. 11  ![alt="Fig. 11"](evaluation-evidence/interaction-004-isminter.png)  
+Fig. 12  ![alt="Fig. 12"](evaluation-evidence/interaction-005-minting.png)  
