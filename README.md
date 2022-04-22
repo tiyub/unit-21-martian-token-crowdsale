@@ -18,7 +18,7 @@ KaseiCoin inherits the following contracts from the OpenZeppelin library:
     * `ERC20Detailed`  
     * `ERC20Mintable`  
 
-Test compile failed due to `uint initial_supply` being an unsed variable.  
+Test compile failed due to `uint initial_supply` being an unused variable.  
 Fig. 1  ![alt="Fig. 1"](evaluation-evidence/001-compile-error.png)  
 
 To compile with no errors unused var `uint initial_supply` was commented. Screenshot of successful compilation of the Kasei constructor definition contract below.  
@@ -30,18 +30,18 @@ Fig. 3  ![alt="Fig. 3"](evaluation-evidence/003-compile-test-no-constuctor-contr
 Complie error screenshot due to the above upload omission.  
 Fig. 4  ![alt="Fig. 4"](evaluation-evidence/004-compile-test-note-pragma55.png)  
 
-Screenshot of successfulest compile of `KaseiCoinCrowdsale.sol` contract below. 
+Screenshot of successful `KaseiCoinCrowdsale.sol` test compile contract below. 
 Fig. 5  ![alt="Fig. 5"](evaluation-evidence/005-compile-test.png)  
 
-Test compile of `KaseiCoinCrowdsale.sol` with errors. Errors due to commented line in Fig. 2. Expected arugment count of 3. Only 2 due to test compile. Ln 38 was uncommented. Ln 38 was uncommented to attemp compile. 2nd compile error encountered due to Ln. 47. The `KaseiCoinCrowdsale` object was called, should have called the instance named `kasei_crowdsale`.   
+`KaseiCoinCrowdsale.sol` test compile with errors. Errors due to commented line in Fig. 2. Expected argument count of 3. Only 2 due to test compile. Ln 38 was uncommented. Ln 38 was uncommented to attempt compile. 2nd compile error encountered due to Ln. 47. The `KaseiCoinCrowdsale` object was called, should have called the instance named `kasei_crowdsale`.   
 Fig. 6  ![alt="Fig. 6"](evaluation-evidence/006-compile-test-args.png)  
 
-Reference was changed to `kasei_crowdsale` - successfull compile Fig. 7.  
+Reference was changed to `kasei_crowdsale` - successful compile Fig. 7.  
 Fig. 7  ![alt="Fig. 7"](evaluation-evidence/007-compile-test-fix.png)  
 
-### Screen Recording of Local Blockchain Interations  
+### Screen Recording of Local Blockchain Interactions  
 
-Please download and view the interaction low-resoution .mp4 and as higher resolution .mov videos in the [Evaluation Evidnce folder.](https://github.com/tiyub/unit-21-martian-token-crowdsale/tree/main/evaluation-evidence)
+Please download and view the interaction low-resoution .mp4 and as higher resolution .mov videos in the [Evaluation Evidence folder.](https://github.com/tiyub/unit-21-martian-token-crowdsale/tree/main/evaluation-evidence)
 
 
 Ganache, Metamask, Remix connected  
