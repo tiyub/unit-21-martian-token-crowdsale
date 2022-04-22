@@ -41,7 +41,7 @@ Fig. 7  ![alt="Fig. 7"](evaluation-evidence/007-compile-test-fix.png)
 
 ### Screen Recording of Local Blockchain Interations  
 
-Please download and view the interaction mp4 videos in the [Evaluation Evidnce folder.](https://github.com/tiyub/unit-21-martian-token-crowdsale/tree/main/evaluation-evidence)
+Please download and view the interaction low-resoution .mp4 and as higher resolution .mov videos in the [Evaluation Evidnce folder.](https://github.com/tiyub/unit-21-martian-token-crowdsale/tree/main/evaluation-evidence)
 
 
 Ganache, Metamask, Remix connected  
