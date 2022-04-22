@@ -42,18 +42,18 @@ Fig. 7  ![alt="Fig. 7"](evaluation-evidence/007-compile-test-fix.png)
 #### Screen Recording of Local Blockchain Interations  
 
 Ganache, Metamask, Remix connected  
-Video 1  ![alt="V. 1"](evaluation-evidence/interaction-001-connect-ganache-metamask-remix.mp4)  
+Fig. 8  ![alt="Fig. 8"](evaluation-evidence/interaction-001-connect-ganache-metamask-remix.png) 
 
 Deploy and input:
     * Cryptocurrency name: kasei  
     * Symbol: kai   
     * Initial Supply  
-Video 2  ![alt="V. 2"](evaluation-evidence/interaction-002-deploy-name-sym-iSupply.mp4)  
+Fig. 9  ![alt="Fig. 9"](evaluation-evidence/interaction-002-deploy-name-sym-iSupply.png)  
 
 Additional interation:
     * addminter  
-        Video 3  ![alt="V. 3"](evaluation-evidence/interaction-003-add-minter.mp4)  
+        Fig. 10  ![alt="Fig. 10"](evaluation-evidence/interaction-003-add-minter.png)  
     * isminter
-        Video 4  ![alt="V. 4"](evaluation-evidence/interaction-004-isminter.mp4)  
+        Fig. 11  ![alt="Fig. 11"](evaluation-evidence/interaction-004-isminter.png)  
     * mint coin  
-        Video 5  ![alt="V. 5"](evaluation-evidence/interaction-005-minting.mp4)  
+        Fig. 12  ![alt="Fig. 12"](evaluation-evidence/interaction-005-minting.png)  
