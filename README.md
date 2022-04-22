@@ -10,7 +10,7 @@ KaseiCoin will be a fungible token that’s ERC-20 compliant. A crowdsale where 
 
 ## Evaluation Evidence
 
-#### Develop KaseiCoin.sol smart contract that will mint the KAI
+### Develop KaseiCoin.sol smart contract that will mint the KAI
 
 KaseiCoin inherits the following contracts from the OpenZeppelin library:
 
@@ -39,7 +39,10 @@ Fig. 6  ![alt="Fig. 6"](evaluation-evidence/006-compile-test-args.png)
 Reference was changed to `kasei_crowdsale` - successfull compile Fig. 7.  
 Fig. 7  ![alt="Fig. 7"](evaluation-evidence/007-compile-test-fix.png)  
 
-#### Screen Recording of Local Blockchain Interations  
+### Screen Recording of Local Blockchain Interations  
+
+Please download and view the interaction mp4 videos in the [Evaluation Evidnce folder.](https://github.com/tiyub/unit-21-martian-token-crowdsale/tree/main/evaluation-evidence)
+
 
 Ganache, Metamask, Remix connected  
 Fig. 8  ![alt="Fig. 8"](evaluation-evidence/interaction-001-connect-ganache-metamask-remix.png) 
